@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>NIFT</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/images/logo.png" alt="Nift Logo" class="logo">
+        <div id="header-button-container">
+            <button class="header-button" onclick="document.getElementById('our-tech').scrollIntoView();">
+                <h1>Our Tech</h1>
+            </button>
+            <button class="header-button" onclick="document.getElementById('how-we-work').scrollIntoView();">
+                <h1>How It Works</h1>
+            </button>
+            <button class="header-button" onclick="document.getElementById('meet-the-team').scrollIntoView();">
+                <h1>Meet The Team</h1>
+            </button>
+        </div>
+    </header>
+    <div id="first-block" class="background-block"></div>
+    <div id="second-block" class="background-block"></div>
+    <div id="third-block" class="background-block"></div>
+    <div id="fourth-block" class="background-block"></div>
+    <div id="fifth-block" class="background-block">
+        <h2>We are redesigning how fans interact with creators</h2>
+    </div>
+    <main>
+        <div class="split-content-container">
+            <img src="./assets/animated/NFts.gif" alt="animation with words" class="split-image">
+            <div class="split-content">
+                <h1>NIFT partners with leading creators</h1>
+                <h2>Creators join our platform, mint NFTs, and then publish them for use within our mobile application by fans</h2>
+            </div>
+        </div>
+        <div class="creator-list">
+            <div class="creator-card"></div>
+            <div class="creator-card"></div>
+            <div class="creator-card"></div>
+        </div>
+        <div id="how-we-work">
+            <div class="first-staggered-content">
+                <h2>First, we partner with leading creators</h2>
+                <img src="./assets/images/NFts.png" alt="" class="thirds-image">
+            </div>
+            <div class="second-staggered-content">
+                <h2>Then, we design exclusive NFTs in partnership with the creator</h2>
+                <img src="./assets/images/design.png" alt="" class="thirds-image">
+            </div>
+            <div class="third-staggered-content">
+                <h2>Finally, when a fan meets the creator the creator distrubtes the NFT using NFC through our mobile application</h2>
+                <img src="./assets/images/fans.png" alt="" class="thirds-image">
+            </div>
+        </div>
+        <div id="meet-the-team">
+            <h1>Meet The Team</h1>
+            <div id="cards-container">
+                <div class="team-card">
+                    <img src="./assets/images/team photos/daniel1.png" alt="" class="card-image">
+                    <h1>Daniel Carmichael</h1>
+                    <h2>Founder & C Exec</h2>
+                    <p>
+                        Daniel Carmichael is a lifelong learner with experience in the startup 
+                        sector as well as a diverse history in professional development experience
+                    </p>
+                </div>
+                <div class="team-card">
+                    <img src="./assets/images/logo.png" alt="" class="card-image">
+                    <h1>Daniel Carmichael</h1>
+                    <h2>Founder & C Exec</h2>
+                    <p>
+                        Daniel Carmichael is a lifelong learner with experience in the startup 
+                        sector as well as a diverse history in professional development experience
+                    </p>
+                </div>
+                <div class="team-card">
+                    <img src="./assets/images/logo.png" alt="" class="card-image">
+                    <h1>Daniel Carmichael</h1>
+                    <h2>Founder & C Exec</h2>
+                    <p>
+                        Daniel Carmichael is a lifelong learner with experience in the startup 
+                        sector as well as a diverse history in professional development experience
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="our-tech">
+            <div class="tagline">
+                <h1>Equity Through Interaction</h1>
+            </div>
+            <div class="tech-highlight-container">
+                <div class="split-info">
+                    <div class="tech-highlight">
+                        <h1>No need to reinvent the wheel, we have options</h1>
+                        <h2>Polygon vs ETH?</h2>
+                        <p>
+                            Our NFTs are minted on the ethereum blockchain for minting stability, security, and price validation
+                        </p>
+                    </div>
+                    <img class="crypto-logo" src="./assets/images/polygon.png" alt="polygon crypto logo">
+                    <h2>vs</h2>
+                    <img class="crypto-logo" src="./assets/images/ethereum.png" alt="ethereum crypto logo">
+                </div>
+                <div class="split-info">
+                    <img class="crypto-logo" src="./assets/images/design-dashboard.png" alt="a graphic of a design pad">
+                    <div class="tech-highlight">
+                        <h1>Creator Dashboard</h1>
+                        <h2>Creators manage minted quantity and designs</h2>
+                        <p>
+                            Our creator dashboard gives access to the design process, allowing them to truly create designs that highlight their brand
+                        </p>
+                    </div>
+                </div>
+                <div class="split-info">
+                    <img class="crypto-logo" src="./assets/images/app-store.png" alt="a graphic of a design pad">
+                    <div class="tech-highlight">
+                        <h1>NIFT Mobile Application</h1>
+                        <h2>Giving access to the fans</h2>
+                        <p>
+                            The NIFT mobile application is used when a fan meets a creator.
+                             The fans can collect, trade, sell, or buy exclusive NFTs with a portion of the sale price going back to the creator.
+                        </p>
+                    </div>
+                    <img class="crypto-logo" src="./assets/images/phone-nfc.png" alt="a graphic of a design pad">
+                </div>
+            </div>
+        </div>
+        <div class="looking-for-creators">
+            <h1>We are looking for creative partners</h1>
+            <h2>As a startup, we need to partner with the right creators to achieve our goals. For our creative partners, we offer 
+                a generous equity package designed with growth in mind. NIFT is looking for <strong>5 creative partners</strong>. Will you be one?
+            </h2>
+            <div id="contact-button">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+        <img id="main-image" src="" alt="">
+    </main>
+    <footer></footer>
+</body>
+</html>
