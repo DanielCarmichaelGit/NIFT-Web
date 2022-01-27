@@ -175,7 +175,7 @@ footer {
     color: #ac9cdc;
 }
 
-#contact-button {
+.contact-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,9 +189,13 @@ footer {
     transition: 0.25s;
 }
 
-#contact-button:hover {
+.contact-button:hover {
     transform: scale(1.05);
     transition: 0.25s;
+}
+
+#whitepaper {
+    height: 3rem;
 }
 
 #how-we-work {
